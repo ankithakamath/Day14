@@ -1,0 +1,42 @@
+{
+	"inventory": [
+		 
+			{
+				"type":"rice",
+				"name":"Noor Jahaan Basmati",
+				"weight": 10.0,
+				"pricePerKg": 70.0
+			},
+			{
+				"type": "rice",
+				"name": "sona masoori",
+				"weight": 20.0,
+				"pricePerKg":50.0
+			},
+			{
+				"type": "wheat",
+				"name": "genetically modified",
+				"weight": 10.0,
+				"pricePerKg": 60.0
+			},
+			{
+				"type": "wheat",
+				"name": "A1",
+				"weight": 10.0,
+				"pricePerKg": 55.0
+			},
+			{
+				"type": "pulses",
+				"name": "moong dal",
+				"weight": 14.0,
+				"pricePerKg": 70.0
+			},
+			{
+				"type": "pulses",
+				"name": "urad dal",
+				"weight": 12.0,
+				"pricePerKg": 50.0
+			}
+		]
+
+}
