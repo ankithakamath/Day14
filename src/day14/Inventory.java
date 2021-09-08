@@ -20,10 +20,10 @@ public class Inventory {
 		JSONParser j1 = new JSONParser();
 		HashMap<String,Double> map = new HashMap<String,Double>();
 		try {
-			Reader reader = new FileReader("/Users/ankithakamath/Desktop/assignments/day14/data/InventoryDetails.json");
+			Reader reader = new FileReader("/Users/ankithakamath/Desktop/assignments/Day14/src/com/yml/utility/inventory.json");
 			JSONObject jsonObject = (JSONObject) j.parse(reader);
 			//System.out.println(jsonObject);
-			JSONArray array = (JSONArray) jsonObject.get("InventoryDetails");
+			JSONArray array = (JSONArray) jsonObject.get("inventory");
 			System.out.println(array);
 			Iterator<JSONObject> iterator = array.iterator();
 			while(iterator.hasNext())
@@ -58,7 +58,7 @@ public class Inventory {
 		obj.put("results", array);
 		
 		try {
-			FileWriter writer = new FileWriter("/Users/ankithakamath/Desktop/assignments/day14/data/Result.json");
+			FileWriter writer = new FileWriter("/Users/ankithakamath/Desktop/assignments/Day14/src/com/yml/utility/result.json");
 			writer.write(obj.toJSONString());
 			writer.flush();
 		} catch (IOException e) {
